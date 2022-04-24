@@ -4,7 +4,7 @@
 QuantumultX:
 
 [rewrite_local]
-^https:\/\/app\.yiyan\.art\/yiyan\/getvipproduct\?YanYan\=2\&v\=4\.13 url script-response-body yiyan.js
+^https:\/\/app\.yiyan\.art\/yiyan\/getvipproduct\?YanYan\=2\&v\=4\.13 url script-response-body https://raw.githubusercontent.com/guodahe/QXScript/main/yiyan.js
 
 [mitm]
 hostname = app.yiyan.art
