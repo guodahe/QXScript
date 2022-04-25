@@ -12,7 +12,7 @@ hostname = pdqun.fanlizhe.top
 **************************/
 
 let obj = JSON.parse($response.body || '{}');
-
+console.log(obj)
 if (obj.user) {
 	obj.user.is_vip= 1;
 //     obj.user["is_agent"] = 1;
