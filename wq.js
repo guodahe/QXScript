@@ -14,11 +14,11 @@ hostname = pdqun.fanlizhe.top
 let obj = JSON.parse($response.body || '{}');
 
 if (obj.user) {
-	obj.user["is_vip"] = 1;
-    obj.user["is_agent"] = 1;
-    obj.user["vip_expires_time"] = 4080785422;
-    obj.user["agent_expires_time"] = 4080785422;
-    obj.user["agent_level"] = 1;
+	obj.user.is_vip= 1;
+//     obj.user["is_agent"] = 1;
+//     obj.user["vip_expires_time"] = 4080785422;
+//     obj.user["agent_expires_time"] = 4080785422;
+//     obj.user["agent_level"] = 1;
    // obj.user["wallet"] = 311624;
    // obj.user["pay_count"] = 9999;
 //     obj.user. commission_ratio={
@@ -26,11 +26,11 @@ if (obj.user) {
 //         "indirect":0.1
 //     }
 
-    if( obj.user.directUser){
-        obj.user["vip_expires_time"] = 4080785422;
-        obj.user["agent_expires_time"] = 4080785422;
-        obj.user["agent_level"] = 1;
-    }
+//     if( obj.user.directUser){
+//         obj.user["vip_expires_time"] = 4080785422;
+//         obj.user["agent_expires_time"] = 4080785422;
+//         obj.user["agent_level"] = 1;
+//     }
 }
 
 
