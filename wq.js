@@ -19,12 +19,12 @@ if (obj.user) {
     obj.user["vip_expires_time"] = 4080785422;
     obj.user["agent_expires_time"] = 4080785422;
     obj.user["agent_level"] = 1;
-    obj.user["wallet"] = 311624;
-    obj.user["pay_count"] = 9999;
-    obj.user. commission_ratio={
-        "direct":0.5,
-        "indirect":0.1
-    }
+   // obj.user["wallet"] = 311624;
+   // obj.user["pay_count"] = 9999;
+//     obj.user. commission_ratio={
+//         "direct":0.5,
+//         "indirect":0.1
+//     }
 
     if( obj.user.directUser){
         obj.user["vip_expires_time"] = 4080785422;
