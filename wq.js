@@ -26,7 +26,11 @@ if (obj.user) {
         "indirect":0.1
     }
 
- 
+    if( obj.user.directUser){
+        obj.user["vip_expires_time"] = 4080785422;
+        obj.user["agent_expires_time"] = 4080785422;
+        obj.user["agent_level"] = 1;
+    }
 }
 
 
