@@ -8,5 +8,6 @@ console.log(obj);
 //obj.vip.started_at="2099-12-12"
 //obj.user.role=1
 //obj.user.user_type=1
+obj.data.vip.is_member=true;
 obj.data.user.user_name="测试Qqq";
 $done({body:JSON.stringify(obj)});
