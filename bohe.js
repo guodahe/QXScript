@@ -14,6 +14,7 @@ if(/app-interface\/v1\/user\/index/.test(url)){
 }else if(/api\/v1\/user\_profile\/detail/.test(url)){
     obj.user_profile.user_name = "大河破解";
 }else if(/api\/v1\/vip\_member/.test(url)){
+    console.log("*********************************",url,obj)
     obj.vip_member = true;
     obj.expired_at = "2099-12-12";
     obj.remain_days =9999;
