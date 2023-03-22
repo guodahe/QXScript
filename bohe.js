@@ -1,6 +1,4 @@
-var body = $response.body;
-console.log(body);
-var obj = JSON.parse(body);
+var obj = JSON.parse($response.body);
 console.log(obj);
 //obj.vip.state="1"   
 //obj.vip.integral_member.integral=9999
