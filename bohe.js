@@ -11,6 +11,4 @@ console.log(obj);
 //obj.user.role=1
 //obj.user.user_type=1
 obj.data.user.user_name="测试Qqq";
-body = JSON.stringify(obj);
-console.log(body);
-$done(body);
+$done({body:JSON.stringify(obj)});
