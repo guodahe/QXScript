@@ -1,5 +1,7 @@
 var body = $response.body;
+console.log(body);
 var obj = JSON.parse(body);
+console.log(obj);
 //obj.vip.state="1"   
 //obj.vip.integral_member.integral=9999
 //obj.vip.integral_member.level=9999
@@ -8,6 +10,7 @@ var obj = JSON.parse(body);
 //obj.vip.started_at="2099-12-12"
 //obj.user.role=1
 //obj.user.user_type=1
-obj.data.user.user_name="测试Qqq"
+obj.data.user.user_name="测试Qqq";
 body = JSON.stringify(obj);
+console.log(body);
 $done(body);
