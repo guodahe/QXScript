@@ -1,7 +1,7 @@
 var url = $request.url
 var obj = JSON.parse($response.body);
-console.log(url);
-console.log(JSON.stringify(obj));
+// console.log(url);
+// console.log(JSON.stringify(obj));
 if(/app-interface\/v1\/user\/index/.test(url)){
     obj.data.first =  obj.data.first.map(v=>{
         v.is_gray=false
