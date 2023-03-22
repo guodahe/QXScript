@@ -10,4 +10,4 @@ var obj = JSON.parse(body);
 //obj.user.user_type=1
 obj.data.user.user_name="测试Qqq"
 body = JSON.stringify(obj);
-$done({body});
+$done(body);
