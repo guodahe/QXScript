@@ -1,7 +1,5 @@
 var body = $response.body;
-console.info(body)
 var obj = JSON.parse(body);
-console.info(obj)
 //obj.vip.state="1"   
 //obj.vip.integral_member.integral=9999
 //obj.vip.integral_member.level=9999
