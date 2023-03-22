@@ -10,6 +10,6 @@ console.info(obj)
 //obj.vip.started_at="2099-12-12"
 //obj.user.role=1
 //obj.user.user_type=1
-obj.user.user_name="测试"
+obj.data.user.user_name="测试"
 body = JSON.stringify(obj);
 $done({body});
