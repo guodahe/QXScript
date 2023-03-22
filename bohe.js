@@ -4,7 +4,7 @@ console.log(url);
 console.log(JSON.stringify(obj));
 if(/app-interface\/v1\/user\/index/.test(url)){
     obj.data.first =  obj.data.first.map(v=>{
-        v.is_gray=true
+        v.is_gray=false
         return v
     });
 }else if(/api\/v1\/user\_profile\/detail/.test(url)){
