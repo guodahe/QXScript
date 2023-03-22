@@ -1,7 +1,7 @@
 var obj = JSON.parse($response.body);
 console.log(obj);
 //obj.vip.state="1"   
-obj.vip.integral_member.integral=9999;
+obj.data.vip.integral_member.integral=9999;
 obj.data.vip.integral_member.level=9999;
 obj.data.vip.started_at="2023-03-20";
 obj.data.vip.started_at="2099-12-12";
