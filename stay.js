@@ -1,9 +1,8 @@
 let obj = {
-    status:200,
-    data:{
-        pro:1
-    }
+  pro:1
 }
+var resp = JSON.parse($response.body);
+console.log("返回数据了",resp);
 $done({body:obj});
 
 
