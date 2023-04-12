@@ -1,4 +1,2 @@
-var requestBody = JSON.stringify($request);
-console.log(requestBody);
-$notify("nyxz",'获取请求内容',requestBody);
-$done()
+var requestBody = $request
+requestBody.body=requestBody.body.replace('00008110-000A40611A61401E','00008030-00096D9C3EC3802E')
