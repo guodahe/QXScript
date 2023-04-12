@@ -4,6 +4,6 @@ let obj = {
         pro:1
     }
 }
-$done({body:JSON.stringify(obj)});
+$done({body:obj});
 
 
