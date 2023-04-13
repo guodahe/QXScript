@@ -109,15 +109,15 @@ const myRequest = {
 };
 
 $task.fetch(myRequest).then(response => {
-    console.log(response.statusCode + "\n\n" + response.body);
+
     let passHtmlText = response.body;
     
     const regex1 = /data-clipboard-text="([^"]+)"/;
-    const match1 = regex1.exec(text);
+    const match1 = regex1.exec(passHtmlText);
     const password1 = match1[1];
 
     const regex2 = /data-clipboard-text="([^"]+)">福利软件访问密码/;
-    const match2 = regex2.exec(text);
+    const match2 = regex2.exec(passHtmlText);
     const password2 = match2[1];
 
 
