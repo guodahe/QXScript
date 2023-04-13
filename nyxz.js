@@ -1,6 +1,6 @@
 var responseBody = $response.body;
 
-if (responseBody.includes('欢迎进入')) {
+if (responseBody.includes('请输入密码')) {
     /**
      * @fileoverview Template to compose HTTP reqeuest.
      * 
@@ -131,5 +131,7 @@ if (responseBody.includes('欢迎进入')) {
         console.log(reason.error);
         $done();
     });
+}else{
+    $done();    
 }
 
