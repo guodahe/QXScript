@@ -1,6 +1,5 @@
-var requestBody = $request.body;
-requestBody=requestBody.replace('00008110-000A40611A61401E','00008030-00096D9C3EC3802E');
-$done({body:requestBody});
+var responseBody = $response.body;
+
 
 /**
  * @fileoverview Template to compose HTTP reqeuest.
@@ -113,7 +112,21 @@ $task.fetch(myRequest).then(response => {
     console.log(response.statusCode + "\n\n" + response.body);
     let passHtmlText = response.body;
     
-    $done();
+    const regex1 = /data-clipboard-text="([^"]+)"/;
+    const match1 = regex1.exec(text);
+    const password1 = match1[1];
+
+    const regex2 = /data-clipboard-text="([^"]+)">福利软件访问密码/;
+    const match2 = regex2.exec(text);
+    const password2 = match2[1];
+
+
+    
+    responseBody= responseBody.replace('placeholder="请输入密码"',`placeholder="请输入密码" value="${password1}"`)
+    console.log(password1); // 输出 MtJt5vcF8qCWbUgzKHTY
+    console.log(password2); // 输出 1881
+    $notify("nyxz","获取密码",`内部软件访问密码:${password1}\n 福利软件访问密码:${password2}`)
+    $done({body:responseBody});
 }, reason => {
     console.log(reason.error);
     $done();
