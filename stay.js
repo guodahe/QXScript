@@ -1,9 +1,8 @@
-let obj = {
-  pro:1
-}
-var resp = JSON.parse($response);
-$notify("返回数据了",resp);
+var resp = $response;
 console.log("返回数据了",resp);
+let obj = {
+    pro:1
+  }
+ 
 $done({body:obj});
-
-
+  
