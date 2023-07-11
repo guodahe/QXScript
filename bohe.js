@@ -1,6 +1,69 @@
-/*
- * 加密工具已经升级了一个版本，目前为 jsjiami.com.v7 ，更新了加密算法，缩减了体积;
- * 另外 jsjiami.com.v7 已经强制加入校验，注释可以去掉，但是 jsjiami.com.v7 不能去掉，其他都没有任何绑定。
- * 誓死不会加入任何后门，JsJiami.com 加密的使命就是为了保护你们的Javascript 。
- */
- var version_='jsjiami.com.v7';var _0x296160=_0x2980;(function(_0x49e9e6,_0x476ddf,_0x45a563,_0x53be6c,_0x5cb755,_0x3d15af,_0x4d1967){return _0x49e9e6=_0x49e9e6>>0x2,_0x3d15af='hs',_0x4d1967='hs',function(_0x2415c6,_0x3e2bd1,_0x25d1f2,_0x2be544,_0x284e45){var _0x1da6bb=_0x2980;_0x2be544='tfi',_0x3d15af=_0x2be544+_0x3d15af,_0x284e45='up',_0x4d1967+=_0x284e45,_0x3d15af=_0x25d1f2(_0x3d15af),_0x4d1967=_0x25d1f2(_0x4d1967),_0x25d1f2=0x0;var _0x5517f4=_0x2415c6();while(!![]&&--_0x53be6c+_0x3e2bd1){try{_0x2be544=-parseInt(_0x1da6bb(0xa7,'@pM3'))/0x1*(-parseInt(_0x1da6bb(0xd2,'slwh'))/0x2)+-parseInt(_0x1da6bb(0x9c,'WvXe'))/0x3+-parseInt(_0x1da6bb(0xcd,'##He'))/0x4+-parseInt(_0x1da6bb(0xbc,'a[c%'))/0x5*(-parseInt(_0x1da6bb(0xce,'jM6u'))/0x6)+-parseInt(_0x1da6bb(0xb4,'^Rt3'))/0x7+parseInt(_0x1da6bb(0xcf,'a[c%'))/0x8*(-parseInt(_0x1da6bb(0xca,'Vw1T'))/0x9)+-parseInt(_0x1da6bb(0x96,'(vF)'))/0xa*(-parseInt(_0x1da6bb(0xc9,'^Rt3'))/0xb);}catch(_0x133b84){_0x2be544=_0x25d1f2;}finally{_0x284e45=_0x5517f4[_0x3d15af]();if(_0x49e9e6<=_0x53be6c)_0x25d1f2?_0x5cb755?_0x2be544=_0x284e45:_0x5cb755=_0x284e45:_0x25d1f2=_0x284e45;else{if(_0x25d1f2==_0x5cb755['replace'](/[BpKDwRlOWgxPMnTCqtbISLefFy=]/g,'')){if(_0x2be544===_0x3e2bd1){_0x5517f4['un'+_0x3d15af](_0x284e45);break;}_0x5517f4[_0x4d1967](_0x284e45);}}}}}(_0x45a563,_0x476ddf,function(_0x5bd374,_0x1760ec,_0x4fa45f,_0x4b62c,_0x4c0642,_0x433361,_0x1e01ed){return _0x1760ec='\x73\x70\x6c\x69\x74',_0x5bd374=arguments[0x0],_0x5bd374=_0x5bd374[_0x1760ec](''),_0x4fa45f='\x72\x65\x76\x65\x72\x73\x65',_0x5bd374=_0x5bd374[_0x4fa45f]('\x76'),_0x4b62c='\x6a\x6f\x69\x6e',(0x1342e5,_0x5bd374[_0x4b62c](''));});}(0x2fc,0xe8b75,_0x16a8,0xc1),_0x16a8)&&(version_=_0x16a8);var url=$request[_0x296160(0x9b,'csnK')],obj=JSON['parse']($response[_0x296160(0x94,'SoCl')]);function _0x2980(_0x18825d,_0x51ca1f){var _0x16a831=_0x16a8();return _0x2980=function(_0x2980af,_0x14d839){_0x2980af=_0x2980af-0x90;var _0x132e42=_0x16a831[_0x2980af];if(_0x2980['kNGMGo']===undefined){var _0x416717=function(_0x25f10b){var _0x181077='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';var _0x41a417='',_0x529534='';for(var _0x5a1355=0x0,_0x25f720,_0x19ff84,_0x15963b=0x0;_0x19ff84=_0x25f10b['charAt'](_0x15963b++);~_0x19ff84&&(_0x25f720=_0x5a1355%0x4?_0x25f720*0x40+_0x19ff84:_0x19ff84,_0x5a1355++%0x4)?_0x41a417+=String['fromCharCode'](0xff&_0x25f720>>(-0x2*_0x5a1355&0x6)):0x0){_0x19ff84=_0x181077['indexOf'](_0x19ff84);}for(var _0x1f3857=0x0,_0x2441b4=_0x41a417['length'];_0x1f3857<_0x2441b4;_0x1f3857++){_0x529534+='%'+('00'+_0x41a417['charCodeAt'](_0x1f3857)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x529534);};var _0x324d21=function(_0x4e9ca1,_0x2d4e06){var _0x51d1a2=[],_0x16ebfc=0x0,_0x53dea3,_0x579c6e='';_0x4e9ca1=_0x416717(_0x4e9ca1);var _0x52ef0f;for(_0x52ef0f=0x0;_0x52ef0f<0x100;_0x52ef0f++){_0x51d1a2[_0x52ef0f]=_0x52ef0f;}for(_0x52ef0f=0x0;_0x52ef0f<0x100;_0x52ef0f++){_0x16ebfc=(_0x16ebfc+_0x51d1a2[_0x52ef0f]+_0x2d4e06['charCodeAt'](_0x52ef0f%_0x2d4e06['length']))%0x100,_0x53dea3=_0x51d1a2[_0x52ef0f],_0x51d1a2[_0x52ef0f]=_0x51d1a2[_0x16ebfc],_0x51d1a2[_0x16ebfc]=_0x53dea3;}_0x52ef0f=0x0,_0x16ebfc=0x0;for(var _0xc63890=0x0;_0xc63890<_0x4e9ca1['length'];_0xc63890++){_0x52ef0f=(_0x52ef0f+0x1)%0x100,_0x16ebfc=(_0x16ebfc+_0x51d1a2[_0x52ef0f])%0x100,_0x53dea3=_0x51d1a2[_0x52ef0f],_0x51d1a2[_0x52ef0f]=_0x51d1a2[_0x16ebfc],_0x51d1a2[_0x16ebfc]=_0x53dea3,_0x579c6e+=String['fromCharCode'](_0x4e9ca1['charCodeAt'](_0xc63890)^_0x51d1a2[(_0x51d1a2[_0x52ef0f]+_0x51d1a2[_0x16ebfc])%0x100]);}return _0x579c6e;};_0x2980['JytPeD']=_0x324d21,_0x18825d=arguments,_0x2980['kNGMGo']=!![];}var _0x1cae34=_0x16a831[0x0],_0x2a0e86=_0x2980af+_0x1cae34,_0xc11b4d=_0x18825d[_0x2a0e86];return!_0xc11b4d?(_0x2980['JzOOQD']===undefined&&(_0x2980['JzOOQD']=!![]),_0x132e42=_0x2980['JytPeD'](_0x132e42,_0x14d839),_0x18825d[_0x2a0e86]=_0x132e42):_0x132e42=_0xc11b4d,_0x132e42;},_0x2980(_0x18825d,_0x51ca1f);}function _0x16a8(){var _0x2992be=(function(){return[version_,'pDjgqsRMjCeialmtfibSK.PLcToymWIw.nBOvxF7==','W4PgWQdcKu/cOSkRbmkkWOG2E8k4','WPbZj8or','aLtdKmkivYLv','CmkSutz/mqC','g8oWyayf','W77cQxZdTe3dNs7cUa','fXxcKG','W4ldNmoyW7i','W7/dJCo4i8kqdG','f8oGqw0','WRfIWR7dIW','i8oOWP7dSmoyWOOWWORcH8oHW64','amo8qgy','WRCccColfJnRECkPWO13WR0','WQNcUSod','5AE85RcC56g46kAl','gSoWBq','vCkvuSkCkCo2hLzulmkirSkV','cJhcR1/dM8oZfSogl8oq','tr3dPmo2zmkfpCk+cxa','DmoujColkxxcQCovxW','W7FcICkKzCoTDSko'].concat((function(){return['W5ldMmoFW6C','F8oDW6jym8kcWQVcRN3dQCkVmW','bvRdISkD','g18p','yf8Q','A8ojjmow','WQBdTt3cOr3cLGdcRqrUWQxdVW','pSkmW6q/tSoXi0uvCxb4dq','b8kQW582s8o0WPVdGIVcSa','WP7dHSkG','jazJgKy0W7eqWQddOq','qrBdI8oYC8kno8kegG','av8mra','ySoKzmoj','W6S3fCos','cCoRCXyA','gSoyb8oRmCkzwa','W6lcTg3dO3xdMZBcPby','W7KVWRFdSIeNFSogBhdcPJddIJa/','W4WTgHXQr8ofl2dcS8ojfCog','qZBcTeJdOK/cV8kXAY8','W5pdJSojW6e','gdNcQ2e','tatdOmo+'].concat((function(){return['WRFdIJOnW6u','rmo3WOPVsSoIWQxdNYRcJ0NdVsW','WQ1MvCkuW6NdTMRcUgu/WOy','W4TbWQBcKbZdKSoxomkIWRy','zCk5W57cTG','W4zxWPRcLCoIE07dLLhdKG','WOJdHmkAWQT9pa','WRdcVSoaWOq','fh7dTHlcVrRdQmodogS','r8ocs3C+pcq','W6bOWPJcPeXyzW','DCoeuCoMWORdSCkgaCkJW7NdHaVdRa','W6pcKmkhW6xdTX3cGGefWPS4','rCoMWOH0qG','W4/dK8oyW7BdTmkAWQ5cDmo/WOTUCsNdSG','y0u/utrRWQjqW7q','W4KGhXjRomkWgxVcLSoQ','WQJcG8kfW7BdLJ3cRG','xSktWP3cM8oMbxC','WQHRumkEW63cTX3cJMWOWOjyW6i','ymkSW7mUWQ93W6NdSCkpW6zOWQ5l','i8kWW77dJNpcGa4xcdq'];}()));}()));}());_0x16a8=function(){return _0x2992be;};return _0x16a8();};if(/app-interface\/v1\/user\/index/[_0x296160(0xaf,'Qemc')](url))obj['data'][_0x296160(0xb0,'csnK')]=obj['data']['first'][_0x296160(0x99,'$rn1')](_0x541e6a=>{var _0x77e185=_0x296160;return _0x541e6a[_0x77e185(0xcb,'b$3A')]=![],_0x541e6a[_0x77e185(0xd3,'csnK')]={'type':'','track_points':[]},_0x541e6a;});else{if(/api\/v1\/user\_profile\/detail/[_0x296160(0xd0,'QmAG')](url))obj[_0x296160(0xa2,')LvH')][_0x296160(0xc8,'2Rc[')]='大河破解';else{if(/api\/v1\/vip\_member/[_0x296160(0xa1,'(V[K')](url))console['log'](url,obj),obj[_0x296160(0x9d,'wq@a')]=!![],obj[_0x296160(0xb5,'T83l')]=_0x296160(0xab,'2Rc['),obj[_0x296160(0xc5,'Vw1T')]=0x270f;else{if(/api\/v1\/users\/plugins/['test'](url))obj[_0x296160(0xb3,'B(ft')][_0x296160(0x90,'@pM3')]=0x270f,obj[_0x296160(0xc7,'(V[K')][_0x296160(0xb9,'c6u@')]=0x270f;else{if(/app-interface\/v1\/user\/user_info/[_0x296160(0xc0,'$rn1')](url))obj[_0x296160(0xb8,'o6P9')][_0x296160(0xa5,'2Rc[')][_0x296160(0xc6,'$u3l')]='2',obj['data']['vip']['started_at']=_0x296160(0xc1,'T83l'),obj[_0x296160(0x92,'(V[K')][_0x296160(0xa4,'gJdZ')][_0x296160(0x9e,'o6P9')]='2099-12-12',obj[_0x296160(0x95,'3p[q')][_0x296160(0xb6,'(V[K')][_0x296160(0xae,'(L^4')]=0x2,obj['data'][_0x296160(0x97,'SoCl')][_0x296160(0xb2,'@pM3')]=0x9,obj[_0x296160(0xa3,'*reD')]['vip'][_0x296160(0xac,'o6P9')]=!![],obj['data']['user']['user_name']='大河破解';else{if(/shop-interface\/v1\/member\/get\_vip\_subscribe\_info/[_0x296160(0xbd,'(vF)')](url))obj['data']={'state':'1','vip_subscribe_info':{'id':0x0,'vip_subscribe_no':_0x296160(0xbf,'bPMa'),'user_key':_0x296160(0x93,'C83Q'),'user_name':_0x296160(0x9a,'c6u@'),'state':'1','signing_time':_0x296160(0xbe,'GB2Y'),'canceled_time':'2099-12-12','renewal_count':0x0,'source':_0x296160(0xaa,'OY@6'),'charge_interval':'','sku_id':0x0},'show_type':0x1};else{if(/store\/pages\/nutrition\_course\_json/['test'](url))obj[_0x296160(0xb1,'BoIz')]=obj[_0x296160(0xd1,'*reD')]['map'](_0x36f6d5=>{var _0x419ae3=_0x296160;return _0x36f6d5[_0x419ae3(0xa6,'tMMw')]=_0x36f6d5[_0x419ae3(0xad,'gJdZ')]['map'](_0x59f5e5=>{var _0x29dd34=_0x419ae3;return _0x59f5e5[_0x29dd34(0x91,'(65o')]=![],_0x59f5e5;}),_0x36f6d5;});else/app\-interface\/v1\/recipes\/index/['test'](url)&&(obj['data'][_0x296160(0xba,'$u3l')]=obj[_0x296160(0xb7,'wq@a')][_0x296160(0xc4,'bju!')]['map'](_0x31190b=>{var _0x4aeae9=_0x296160;return _0x31190b[_0x4aeae9(0xc3,'h#MQ')]=![],_0x31190b;}));}}}}}}$done({'body':JSON[_0x296160(0x9f,'tMMw')](obj)});var version_ = 'jsjiami.com.v7';
+var url = $request.url
+var obj = JSON.parse($response.body);
+// console.log(url);
+// console.log(JSON.stringify(obj));
+if (/app-interface\/v1\/user\/index/.test(url)) {
+    obj.data.first = obj.data.first.map(v => {
+        v.is_gray = false
+        v.track = {
+            "type": "",
+            "track_points": []
+        }
+        return v
+    });
+} else if (/api\/v1\/user\_profile\/detail/.test(url)) {
+    obj.user_profile.user_name = "大河破解";
+} else if (/api\/v1\/vip\_member/.test(url)) {
+    console.log(url, obj)
+    obj.vip_member = true;
+    obj.expired_at = "2099-12-12";
+    obj.remain_days = 9999;
+} else if (/api\/v1\/users\/plugins/.test(url)) {
+    obj.integral_member.integral = 9999;
+    obj.integral_member.level = 9999;
+} else if (/app-interface\/v1\/user\/user_info/.test(url)) {
+    obj.data.vip.state = "2"
+    obj.data.vip.started_at = "2023-03-20";
+    obj.data.vip.expired_at = "2099-12-12";
+    obj.data.user.role = 2
+    obj.data.user.user_type = 9;
+    obj.data.vip.is_member = true;
+    obj.data.user.user_name = "大河破解";
+} else if (/shop-interface\/v1\/member\/get\_vip\_subscribe\_info/.test(url)) {
+    obj.data = {
+        "state": "1",
+        "vip_subscribe_info": {
+            "id": 0,
+            "vip_subscribe_no": "123456",
+            "user_key": "123456",
+            "user_name": "大河破解",
+            "state": "1",
+            "signing_time": "2023-03-20",
+            "canceled_time": "2099-12-12",
+            "renewal_count": 0,
+            "source": "app",
+            "charge_interval": "",
+            "sku_id": 0
+        },
+        "show_type": 1
+    }
+} else if (/store\/pages\/nutrition\_course\_json/.test(url)) {
+    obj.content = obj.content.map(v => {
+        v.list = v.list.map(m => {
+            m.vip = false
+            return m
+        })
+        return v
+    })
+} else if (/app\-interface\/v1\/recipes\/index/.test(url)) {
+    obj.data.recom_recipes = obj.data.recom_recipes.map(v => {
+        v.for_vip = false
+        return v
+    })
+}else if (/app\-interface\/v1\/vip\_activity\/weight\_recommend/.test(url)) {
+    obj.data.is_vip = true
+}
+
+
+$done({ body: JSON.stringify(obj) });
+
