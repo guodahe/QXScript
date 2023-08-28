@@ -7,4 +7,6 @@ function replaceParamVal(oUrl, paramName, replaceWith) {
 };
 let newUrl = replaceParamVal(url, 'udid', 'c17440a56c5ef43b4e9381ffd60eb7cd7efdf61a');
 console.log("替换后"+newUrl);
-$done({ url: newUrl });
+url = newUrl;
+console.log($request.body);
+$done(url);
