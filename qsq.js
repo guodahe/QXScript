@@ -1,5 +1,5 @@
 var url = $request.url;
-console.log($request);
+console.log(JSON.stringify($request) );
 function replaceParamVal(oUrl, paramName, replaceWith) {
     var re = new RegExp('(' + paramName + '=)([^&]*)', 'gi');
     var nUrl = oUrl.replace(re, paramName + '=' + replaceWith);
