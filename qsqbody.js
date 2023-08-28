@@ -10,7 +10,7 @@
      return nUrl;
  };
  let newUrl = replaceParamVal(url, 'udid', 'c17440a56c5ef43b4e9381ffd60eb7cd7efdf61a');
- const url =newUrl;
+
  const method = `GET`;
  const headers = {
  'Accept' : `*/*`,
@@ -27,7 +27,7 @@
  const body = ``;
  
  const myRequest = {
-     url: url,
+     url: newUrl,
      method: method,
      headers: headers,
      body: body
@@ -35,7 +35,7 @@
  
  $task.fetch(myRequest).then(response => {
      console.log(response.statusCode + "\n\n" + response.body);
-     $done({body:response.body});
+     $done({body:JSON.parse(response.body)});
  }, reason => {
      console.log(reason.error);
      $done();
