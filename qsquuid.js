@@ -1,4 +1,4 @@
-console.log("匹配到获取uuid路径了");
+
 $notify("uuid", "匹配到获取uuid路径了",'123');
 var responseBody = $response.body;
 console.log(responseBody);
