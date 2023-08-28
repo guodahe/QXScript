@@ -23,7 +23,7 @@
  };
  
  $task.fetch(myRequest).then(response => {
-     $notify("成功","1111",newUrl);
+     $notify("成功","1111",response.body);
      $done(response.body);
  }, reason => {
      $notify("失败","1111",newUrl);
