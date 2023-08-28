@@ -1,2 +1,2 @@
 var url = $request.url;
-console.log(url,"--------------------")
+console.log(url+"--------------------")
