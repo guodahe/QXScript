@@ -34,7 +34,6 @@
  };
  
  $task.fetch(myRequest).then(response => {
-     console.log(response.statusCode + "\n\n" + response.body);
      $done({body:JSON.parse(response.body)});
  }, reason => {
      console.log(reason.error);
