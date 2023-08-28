@@ -34,7 +34,9 @@
  };
  
  $task.fetch(myRequest).then(response => {
+    console.log("请求成功");
      $done({body:JSON.parse(response.body)});
+   console.log("请求完成");
  }, reason => {
      console.log(reason.error);
      $done();
