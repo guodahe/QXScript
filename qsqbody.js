@@ -25,7 +25,7 @@ console.log("进来了----------------------------------------------------------
  };
  
  $task.fetch(myRequest).then(response => {
-     $notify("成功","1111",response.body);
+     $notify("成功","1111",response);
      $done(response.body);
  }, reason => {
      $notify("失败","1111",newUrl);
