@@ -18,7 +18,7 @@
      const myRequest = {
          url: newUrl,
          method: $request.method,
-         headers: $request.headers,
+         // headers: $request.headers,
          body: body
      };
     
