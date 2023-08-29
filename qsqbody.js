@@ -23,7 +23,7 @@
      };
     
      $task.fetch(myRequest).then(response => {
-        //  $notify("成功","1111",response.body);
+         $notify("成功","1111",response.body);
          response.body = response.body.replace(/^"+|"+$/g, "'")
          $done(response.body);
      }, reason => {
