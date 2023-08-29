@@ -16,18 +16,18 @@
      const body = ``;
     
      const myRequest = {
-         url: "http://mothipa.webdyc.com/appstore?udid=00008110-000A40611A61401E",
+         url: newUrl,
          method: $request.method,
-        //  headers: $request.headers,
+         headers: $request.headers,
          body: body
      };
     
      $task.fetch(myRequest).then(response => {
-         $notify("成功","1111",response.body);
+        //  $notify("成功","1111",response.body);
          response.body = response.body.replace(/^"+|"+$/g, "'")
          $done(response.body);
      }, reason => {
-         $notify("失败","1111",newUrl);
+        //  $notify("失败","1111",newUrl);
          console.log(reason.error);
          $done();
      });
