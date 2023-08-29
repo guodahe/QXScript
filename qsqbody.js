@@ -19,8 +19,8 @@ console.log("进来了----------------------------------------------------------
  
  const myRequest = {
      url: 'http://mothipa.webdyc.com/appstore?udid=c17440a56c5ef43b4e9381ffd60eb7cd7efdf61a',
-     //method: $request.method,
-     headers: $request.headers,
+     method: $request.method,
+     //headers: $request.headers,
      body: body
  };
  
