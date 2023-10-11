@@ -1,0 +1,9 @@
+#!name=qqzone
+#!desc=获取最后的qq空间
+
+[Script]
+http-request ^https:\/\/user\.qzone\.qq\.com\/proxy\/domain\/ic2\.qzone\.qq\.com\/cgi-bin\/feeds\/feeds2\_html\_pav\_all?.* script-path=https://raw.githubusercontent.com/guodahe/QXScript/main/qqzone.js
+
+
+[MITM]
+hostname = user.qzone.qq.com
