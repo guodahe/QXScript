@@ -29,7 +29,7 @@ if (responseBody.includes('请输入密码')) {
   <key>PRODUCT</key>
   <string>iPhone14,7</string>
   <key>UDID</key>
-  <string>00008030-00096D9C3EC3802E</string>
+  <string>00008110-001C1C1E3444401E</string>
   <key>VERSION</key>
   <string>20D67</string>
  </dict>
