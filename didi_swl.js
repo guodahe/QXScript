@@ -1,5 +1,5 @@
 // didi_swl.js — 滴滴顺路自动配置（完整增强版）
-
+$notify("顺路修改成功", "目的地已设为中川机场", $request.url);
 let obj = JSON.parse($response.body);
 const now = Math.floor(Date.now() / 1000);
 const startTime = now + 300; // 启动时间 = 当前时间 + 5分钟
